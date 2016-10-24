@@ -5,14 +5,9 @@ body{
   font-family: 'Raleway', Raleway;
 }
 
-.carousel-inner{
-  height: 220px;
-  margin-top: 15px;
-}
-
 .dot{
   background-color: #bbb !important;
-  margin-bottom: -65px !important;
+  margin-bottom: -105px !important;
 }
 
 .active.dot{
@@ -23,19 +18,44 @@ body{
   text-align: center;
 }
 
+h1, h2, h3, h4, h5{
+  color: #484848 !important;
+}
+
 .title{
   background-color: white;
   border-bottom: solid 1px #DCE0E0;
   padding-bottom: 10px;
   margin: 0px;
   padding-top: 10px;
+  margin-bottom: 25px;
+  min-height: 60px;
 }
 
 .ampersand{
-  padding-top: 40px;
+  width: 50%;
+  min-width: 100px;
+  min-height: 100px;
 }
 
 .airbnb-logo{
-  height: 220px;
+  height: 260px;
   padding-top: 40px;
+}
+
+.flex-box{
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#pictures {
+    padding-top: 20px;
+}
+
+.intro-text{
+  margin-left: 5%;
 }
